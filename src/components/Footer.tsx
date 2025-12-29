@@ -8,7 +8,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center mb-6">
               <img
-                src="/logo.png"
+                src="/logo.svg"
                 alt="RideNow"
                 className="h-10 w-auto"
               />

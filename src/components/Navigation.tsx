@@ -39,14 +39,11 @@ export function Navigation() {
       <header className={`hidden md:block fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-navy-900 shadow-lg py-3' : 'bg-navy-900/95 backdrop-blur-sm py-4'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <Link to="/" className="flex items-center group">
-            <div className="w-8 h-8 bg-gold-400 rounded-sm flex items-center justify-center mr-3 transition-transform group-hover:rotate-45">
-              <span className="text-navy-900 font-serif font-bold text-xl">
-                R
-              </span>
-            </div>
-            <span className="font-serif font-bold text-2xl text-white tracking-tight">
-              RideNow
-            </span>
+            <img
+              src="/logo.png"
+              alt="RideNow"
+              className="h-10 w-auto transition-transform group-hover:scale-105"
+            />
           </Link>
 
           <nav className="flex items-center space-x-6">
@@ -72,14 +69,11 @@ export function Navigation() {
       {/* Mobile Top Bar */}
       <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-navy-900 px-4 py-3 flex justify-between items-center shadow-md">
         <Link to="/" className="flex items-center">
-          <div className="w-7 h-7 bg-gold-400 rounded-sm flex items-center justify-center mr-2">
-            <span className="text-navy-900 font-serif font-bold text-lg">
-              R
-            </span>
-          </div>
-          <span className="font-serif font-bold text-xl text-white">
-            RideNow
-          </span>
+          <img
+            src="/logo.png"
+            alt="RideNow"
+            className="h-8 w-auto"
+          />
         </Link>
         <div className="flex items-center gap-3">
           <NotificationBadge count={unreadNotifications} />

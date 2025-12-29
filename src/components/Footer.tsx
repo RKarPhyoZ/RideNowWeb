@@ -7,14 +7,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center mb-6">
-              <div className="w-8 h-8 bg-gold-400 rounded-sm flex items-center justify-center mr-3">
-                <span className="text-navy-900 font-serif font-bold text-xl">
-                  R
-                </span>
-              </div>
-              <span className="font-serif font-bold text-2xl tracking-tight">
-                RideNow
-              </span>
+              <img
+                src="/logo.png"
+                alt="RideNow"
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-navy-200 text-sm leading-relaxed mb-6">
               Experience the extraordinary. Premium vehicle rentals for those

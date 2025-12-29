@@ -40,7 +40,7 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <Link to="/" className="flex items-center group">
             <img
-              src="/logo.png"
+              src="/logo.svg"
               alt="RideNow"
               className="h-10 w-auto transition-transform group-hover:scale-105"
             />
@@ -70,7 +70,7 @@ export function Navigation() {
       <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-navy-900 px-4 py-3 flex justify-between items-center shadow-md">
         <Link to="/" className="flex items-center">
           <img
-            src="/logo.png"
+            src="/logo.svg"
             alt="RideNow"
             className="h-8 w-auto"
           />
